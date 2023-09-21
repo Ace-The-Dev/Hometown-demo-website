@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+#header{
+    width:100%;
+    max-height:390px;
+    background-image:url(images/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    font-family: Monomaniac One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top:75px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header h1{
+    display: inline;
+    width:280px;
+    padding:8px 12px;
+    font-size: 36px;
+    border-radius: 9px;
+    background: #245966e6;
+    margin-bottom: 45px;
+    border-bottom: 4px solid #FFF;
+    text-shadow: 2px 1px 3px #245966e6;
+}
+#header p{
+    display: inline-block;
+    width:480px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid rgba(36, 89, 102, 0.72);
+    Background: #c57139e2;  
+}
+#activities{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding:0 30px;
+}
+.cards{
+    width:330px;
+    height:280px;
+    text-align: center;
+}
+.cards p{
+    width:94%;
+}
+#activities img{
+    width: 136px;
+    height: 136px;
+    flex-shrink: 0;
+    border-radius: 136px;
+    background: url(images/Bar.jpg);
+    background-size:cover; 
+}
+.section-header{
+    color: #245966;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top:45px;
+}
+#activities h3{
+    color: #245966;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} 
+#activities p{
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Arial Rounded MT Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#card-section{
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    height: 319px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    border-bottom: 5px solid #245966;
+    background: #95C5DC;
+    padding:0 20px;
+}
+.card img{
+    width:150px;
+    border-radius: 12px;
+}
+.words{
+    text-align: center;
+    margin-left:12px;
+    color: #245966;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.words h3{
+    font-weight: 600;
+}
+.words p{
+    margin-top:25px;
+    margin-bottom: 18px; 
+}
